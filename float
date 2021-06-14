@@ -1,0 +1,8 @@
+print("Enter 3 Number: ")
+
+a=float(input())
+b=float(input())
+d=float(input())
+e=a+b-d
+c=e/2
+print(c)
