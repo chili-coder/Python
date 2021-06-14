@@ -1,0 +1,31 @@
+mark =[]
+c=0
+
+print("Enter the subject: ")
+subject=int (input())
+print("Enter the "+str(subject)+ " Subject Mark: ")
+
+for i in range(subject):
+    mark.append(input())
+
+for i in range(subject):
+    c = c+int(mark[i])
+
+if c>=80:
+    print("Your Result Is: " +"A+")
+elif c>=70:
+    print("Your Result Is: "+"A")
+elif c>=60:
+    print("Your Result Is: "+"A-")
+elif c>=50:
+    print("Your Result Is: "+"B")
+elif c>=40:
+    print("Your Result Is: "+"C")
+elif c>=33:
+    print("Your Result Is: "+"D")
+else:
+    print("Your Result Is: "+"Fail")
+
+
+
+
